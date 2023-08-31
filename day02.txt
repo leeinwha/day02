@@ -21,3 +21,14 @@ day02.txt 수정사항을 stage에 올림
 
 영구저장
   (stage에 올라가있는 임시저장된 파일드만 영구저장이 된다)
+
+untracked
+  무조건 처음 새롭게 만들어진 파일은 unstaged
+
+한번이라도 stage에 올라갔고, commit이 되었다면
+  tracked
+
+commit을 할때는 staged 된 파일만 커밋됨
+
+stage에 한번에 모든 파일 올리기
+  git add .
